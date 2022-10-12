@@ -8,8 +8,8 @@ public class Ejercicio4 {
 		//Declaramos variables para guardar lo introducido por el usuario
 		String primeraTirada;
 		String segundaTirada;
-		
-		int result;//Se guardará el resultado de la suma de los valores de las tiradas
+		int tirada1=0;
+		int tirada2=0;
 		//Creamos el Scanner
 		Scanner read= new Scanner (System.in);
 		//Solicitamos al usuario el resultado de cada tirada.
@@ -17,26 +17,27 @@ public class Ejercicio4 {
 		primeraTirada = read.next();
 		System.out.print("Introduzca el resultado de la segunda tirada: UNO, DOS, TRES, CUATRO, CINCO, SEIS.");
 		segundaTirada = read.next();
+		
 		//Utilizamos dos switch
 		switch (primeraTirada) {
 		//Dependiendo del valor introducido por el usuario se le mostrará un case determinado.
 		case "UNO":
-			System.out.println("1");
+			tirada1 = 1;
 			break;
 		case "DOS":
-			System.out.println("2");
+			tirada1 = 2 ;
 			break;
 		case "TRES":
-			System.out.println("3");
+			tirada1 = 3 ;
 			break;
 		case "CUATRO":
-			System.out.println("4");
+			tirada1 = 4 ;
 			break;
 		case "CINCO":
-			System.out.println("5");
+			tirada1 = 5 ;
 			break;
 		case "SEIS":
-			System.out.println("6");
+			tirada1 = 6 ;
 			break;
 		default:
 				System.out.println("Dato introducido no válido.");
@@ -44,33 +45,28 @@ public class Ejercicio4 {
 
 		switch (segundaTirada) {
 		case "UNO":
-			System.out.println("1");
+			tirada2 = 1;
 			break;
 		case "DOS":
-			System.out.println("2");
+			tirada2 = 2;
 			break;
 		case "TRES":
-			System.out.println("3");
+			tirada2 = 3;
 			break;
 		case "CUATRO":
-			System.out.println("4");
+			tirada2 = 4;
 			break;
 		case "CINCO":
-			System.out.println("5");
+			tirada2 = 5;
 			break;
 		case "SEIS":
-			System.out.println("6");
+			tirada2 = 6;
 			break;
 		default:
 			System.out.println("Dato introducido no válido.");
 	}
-		if (primeraTirada>=1 && primeraTirada<=6) {
-			
-		}
-		
-		switch (result) {}
-	
-		
+
+		System.out.println("La suma de las dos tiradas es " + ( tirada1 + tirada2 ));
 	}
 
 }
