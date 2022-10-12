@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
-		//Declaramos la veriable.
+		//Declaramos la variable.
 		int nota ;//Se guardará la nota introducido por el usuario.
 		//Creamos el Scanner
 		Scanner read = new Scanner (System.in);
