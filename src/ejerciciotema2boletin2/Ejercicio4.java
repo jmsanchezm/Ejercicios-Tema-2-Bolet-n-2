@@ -65,8 +65,14 @@ public class Ejercicio4 {
 		default:
 			System.out.println("Dato introducido no válido.");
 	}
-
-		System.out.println("La suma de las dos tiradas es " + ( tirada1 + tirada2 ));
+		/*Utilizamos un if para en el caso en el que los datos introducidos 
+		sean erróneos, no se muestre la suma.*/
+		if (tirada1>0 && tirada2>0) {
+			System.out.println("La suma de las dos tiradas es " + ( tirada1 + tirada2 ));
+		}
+		//Finalmente, cerramos el Scanner
+		read.close();
+		
 	}
 
 }
