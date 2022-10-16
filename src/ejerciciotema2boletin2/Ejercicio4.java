@@ -69,6 +69,8 @@ public class Ejercicio4 {
 		sean erróneos, no se muestre la suma.*/
 		if (tirada1>0 && tirada2>0) {
 			System.out.println("La suma de las dos tiradas es " + ( tirada1 + tirada2 ));
+		}else {
+			System.out.println("Debido a los datos erróneos, no se puede efectuar la suma se las tiradas.");
 		}
 		//Finalmente, cerramos el Scanner
 		read.close();

@@ -16,7 +16,7 @@ public class Ejercicio3 {
 		System.out.println("Introduzca otro número: ");
 		b=read.nextInt();
 		//Se le abrirá un menú y tendrá que elegir alguna de estas opciones.
-		System.out.println("ELIGE UNA OPCIÓN:SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN.");
+		System.out.println("ELIGE UNA OPCIÓN: SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN.");
 		result = read.next();
 		//Utilizamos un switch
 		switch (result) {
